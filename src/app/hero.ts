@@ -1,4 +1,6 @@
 export class Hero {
-    id: number;
+    // modified from angular tutorial
+    // in order to fix add() method  in heroescomponent
+    id?: number;
     name: String;
 }
